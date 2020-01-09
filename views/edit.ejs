@@ -17,6 +17,7 @@
      
 </head>
 <body>
+    <font size="4">
     <img src="https://1.bp.blogspot.com/-5LGvxa85lK4/XeZzyMnlLaI/AAAAAAAARtM/IJTYFA6b35QWYmQHhta9u1cTPFiAGqI8gCLcBGAsYHQ/s1600/homeTitlePicture.jpg" >
 <div id="container">
     <nav>
@@ -37,10 +38,19 @@
             <a href="/logout">登出</a>
         </div>
         <div id="user-name">
-            <h3>使用者:<%= user.username %></h3>
+            <h2>使用者:<%= user.username %></h2>
         </div>
     </header> 
     <main>
+        <h1>原會議資料:</h1>
+        <h3>會議名稱:<%=name%></h3>
+        <h3>會議代碼:<%=id%></h3>
+        <h3>會議室編號:<%=room%></h3>
+        <h3>開會日期:<%=opendate%></h3>
+        <h3>開始時間:<%=starttime%></h3>
+        <h3>結束時間:<%=endtime%></h3>
+        <h3>預約者:<%=orderer%></h3>
+
         <div class="inputer">
             會議代碼： <input type="text" name="updatecode" class="inparea"id="updatecode">
             </div>
@@ -102,6 +112,7 @@
             </div> 
     </main> 
 </div>
+</font>
 </body>
 </div>    
     <script>

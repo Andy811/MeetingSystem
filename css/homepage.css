@@ -80,7 +80,7 @@ header{
 header #links {
     
     float: right;
-    height: 60px;
+    height: 50px;
     display: block;
     color: #f7f7f7;
     font-size: 2em;
@@ -118,7 +118,8 @@ background-color: #1e90ff;
 main{
     top: 200px;
     position: absolute;
-    left: 200px;
+    left: 250px;
+
    
 }
 
@@ -130,7 +131,8 @@ main{
 
 main #table{
     height: 600px;
-    width: 600px; 
+    width: 700px; 
+     float: right;
 }
 
 main #info-menu{
@@ -149,22 +151,24 @@ width: 100px;
 }
 #example {
     position:absolute;
+    top:700px;
+    width: 100px;
 }
 #employees {
-    width: 270px;
+    width: 200px;
 }
 
 #example .demo-section {
     max-width: none;
-    width: 515px;
+    width: 400px;
 }
 
 #example .k-listbox {
-    width: 236px;
-    height: 310px;
+    width: 150px;
+    height: 250px;
 }
 
 #example .k-listbox:first-of-type {
-    width: 270px;
+    width: 150px;
     margin-right: 1px;
 }
